@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import UserContext from '../contex/UserContext'
+import UserContext from '../context/UserContext'
 
 
 function Search() {
@@ -20,8 +20,8 @@ function Search() {
         <input
           type="text"
           placeholder="Enter Your Task"
-          className="border-2 rounded-l-xl w-[250px] md:w-[500px] h-10 text-xl p-2 bg-gray-200 italic" value={todo} onChange={(e)=> setTodo(e.target.value)}></input>
-        <button type="sumbit" className="border-2 bg-green-400 text-xl p-1 pl-2 pr-2 font-semibold rounded-r-xl cursor-pointer" >
+          className="border-1 rounded-l-[8px] w-[250px] md:w-[450px] h-11 text-xl p-2  italic bg-blue-100 text-black" value={todo} onChange={(e)=> setTodo(e.target.value)}></input>
+        <button type="sumbit" className="border-1 active:scale-[0.9] bg-blue-500 border-black text-white text-xl p-2 pl-3 pr-3  rounded-r-[8px] cursor-pointer" >
           Add
         </button>
         </form>
@@ -30,3 +30,4 @@ function Search() {
   );
 }
 export default Search;
+
