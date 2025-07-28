@@ -22,7 +22,7 @@ function TodoList({ todo }) {
 
   return (
     <>
-      <div className="h-auto w-full p-4 text-gray-900 transition-all duration-300 linear hover:shadow-lg hover:shadow-gray-600 rounded-lg mb-4">
+      <div className="h-auto w-full p-1 text-gray-900 transition-all duration-300 linear hover:shadow-lg hover:shadow-gray-600 rounded-lg mb-4">
         <div
           className={`flex flex-wrap gap-4 ${
             todo.completed ? "bg-green-300" : "bg-blue-100"
