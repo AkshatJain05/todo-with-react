@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Heading from "./component/Heading";
 import Search from "./component/Search";
 import TodoList from "./component/TodoList";
-import UserContext from "./context/UserContext";
+import UserContext from "./context/UserContext.js";
 
 function App() {
   const [todos, setTodos] = useState([]);
