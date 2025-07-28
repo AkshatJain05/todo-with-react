@@ -28,7 +28,7 @@ function TodoList({ todo }) {
             todo.completed ? "bg-green-300" : "bg-blue-100"
           }  p-2 rounded justify-between`}
         >
-          <div className="flex sm:w-[85%] gap-5">
+          <div className="flex w-[70%] gap-5">
             <input
               className="appearance w-5 h-5 bg-white m-1 cursor-pointer"
               type="checkBox"
