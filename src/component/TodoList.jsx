@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import UserContext from "../context/UserContext";
+import UserContext from "../contex/UserContext";
 
 function TodoList({ todo }) {
   const { updateTodo, deletetodo, toggleCompleted } = useContext(UserContext);
